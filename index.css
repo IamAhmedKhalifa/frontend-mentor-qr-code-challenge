@@ -1,20 +1,17 @@
 
 body {
-    max-width: 1440px;
     font-family: 'Outfit', sans-serif;
-    background-color: hsl(220, 15%, 55%)
+    background-color: hsl(212, 45%, 89%);
+    margin: 0 auto;
+    width: auto;
 }
 
-.attribution {
-    font-size: 11px; text-align: center;
-}
-
-.attribution a {
+a {
     color: hsl(228, 45%, 44%);
 }
 
 h1 {
-    font-size: 15px;
+    font-size: 18px;
     color: #000;
 }
 
@@ -23,7 +20,28 @@ p {
     color: hsl(220, 15%, 55%);
 }
 
-section {
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 20px;
+img {
+    height: 240px;
+    width: 240px;
+    border-radius: 13px;
 }
+
+section {
+    border-radius: 13px;
+    padding: 15px 10px;
+    display: flexbox;
+    /* justify-content: center; */
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    height: 465px;
+    width: 250px;
+    /* align-items: center; */
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+/* .attribution {
+    font-size: 10px;
+    text-align: center;
+} */
