@@ -2,8 +2,6 @@
 body {
     font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
-    margin: 0 auto;
-    width: auto;
 }
 
 a {
@@ -27,21 +25,31 @@ img {
 }
 
 section {
+    background-color: hsl(0, 0%, 100%);
     border-radius: 13px;
     padding: 15px 10px;
-    display: flexbox;
-    /* justify-content: center; */
-    background-color: hsl(0, 0%, 100%);
+    display: flex;
     text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
     height: 465px;
     width: 250px;
-    /* align-items: center; */
-    position: absolute;
-    top: 20%;
-    left: 50%;
 }
+
 
 /* .attribution {
     font-size: 10px;
-    text-align: center;
+    line-height: 35%;
 } */
+
+
+/* .info, .attribution {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    font-size: 10px;
+} */
+
