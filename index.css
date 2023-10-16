@@ -2,6 +2,8 @@
 body {
     font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
+    margin-top: 110px;
+
 }
 
 a {
@@ -14,8 +16,17 @@ h1 {
 }
 
 p {
-    font-size: 15px;
     color: hsl(220, 15%, 55%);
+}
+
+.info p {
+    font-size: 15px;
+    margin-bottom: -5px;
+}
+
+.attribution p {
+    font-size: 12px;
+    line-height: 0.5;
 }
 
 img {
@@ -33,23 +44,7 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     margin: auto;
-    height: 465px;
+    height: 450px;
     width: 250px;
 }
-
-
-/* .attribution {
-    font-size: 10px;
-    line-height: 35%;
-} */
-
-
-/* .info, .attribution {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: auto;
-    font-size: 10px;
-} */
 
