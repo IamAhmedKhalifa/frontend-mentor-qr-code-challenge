@@ -9,9 +9,11 @@
 body {
     font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
-    margin-top: 110px;
-    width: 90%;
-    height: auto;
+    max-width:1440px;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 a {
