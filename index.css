@@ -1,9 +1,17 @@
 
+@media screen and (max-width: 768px) {
+    section {
+        width: 100%; /* Use full width on smaller screens */
+        max-width: none; /* Remove maximum width */
+    }
+}
+
 body {
     font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
     margin-top: 110px;
-
+    width: 90%;
+    height: auto;
 }
 
 a {
@@ -21,7 +29,7 @@ p {
 
 .info p {
     font-size: 15px;
-    margin-bottom: -5px;
+    margin-bottom: 25px;
 }
 
 .attribution p {
@@ -46,5 +54,6 @@ section {
     margin: auto;
     height: 450px;
     width: 250px;
+    max-width: 300px;
 }
 
